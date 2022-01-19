@@ -20,5 +20,15 @@
         "psr-4": {
             "CodeSinging\\LaravelDouyin\\Tests\\": "tests"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "CodeSinging\\LaravelDouyin\\DouyinServiceProvider"
+            ],
+            "aliases": {
+                "douyin": "CodeSinging\\LaravelDouyin\\DouyinFacade"
+            }
+        }
     }
 }
