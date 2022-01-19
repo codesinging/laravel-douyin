@@ -9,7 +9,8 @@
         }
     ],
     "require": {
-        "php": "^7.4|^8.0"
+        "php": "^7.4|^8.0",
+        "laravel/framework": "^8.80"
     },
     "autoload": {
         "psr-4": {
@@ -30,5 +31,8 @@
                 "douyin": "CodeSinging\\LaravelDouyin\\DouyinFacade"
             }
         }
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0"
     }
 }
