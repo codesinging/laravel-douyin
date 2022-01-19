@@ -1,0 +1,24 @@
+{
+    "name": "codesinging/laravel-douyin",
+    "description": "抖音开放平台SDK",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "codesinging",
+            "email": "codesinging@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">7.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "CodeSinging\\LaravelDouyin\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "CodeSinging\\LaravelDouyin\\Tests\\": "tests"
+        }
+    }
+}
